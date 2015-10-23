@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/whatasunnyday/hosts/issues"
   },
-  "homepage": "https://github.com/whatasunnyday/hosts#readme"
+  "homepage": "https://github.com/whatasunnyday/hosts#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.34.1"
+  }
 }
